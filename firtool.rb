@@ -48,4 +48,6 @@ class Firtool < Formula
 
     bin.install buildpath/"build/bin/firtool"
   end
+
+  # TODO: run the tests
 end
