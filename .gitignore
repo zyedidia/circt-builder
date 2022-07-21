@@ -1,2 +1,4 @@
 circt
+circt-source
+*.tar.gz
 .DS_Store

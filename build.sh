@@ -4,9 +4,11 @@ REPO=https://github.com/llvm/circt
 BUILD_TYPE=Release
 ENABLE_ASSERTIONS=OFF
 EXPORT_COMPILE_COMMANDS=OFF
+CHECKOUT=main
 
 # get circt+llvm
 git clone $REPO
+git checkout $CHECKOUT
 cd circt
 git submodule init
 git submodule update
