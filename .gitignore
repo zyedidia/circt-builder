@@ -1,4 +1,5 @@
 circt
 circt-source
+firtool-*
 *.tar.gz
 .DS_Store
